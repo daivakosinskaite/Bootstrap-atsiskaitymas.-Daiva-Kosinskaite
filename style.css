@@ -1,0 +1,42 @@
+.container {
+    height: 100vh; 
+  }
+
+  #background-container {
+    background-image: url('./images/banner6.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #footer {
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .navbar-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/banner6.jpg);
+    background-size: cover;
+    opacity: 0.3; 
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: black !important; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: yellow !important; 
+  }
+  
